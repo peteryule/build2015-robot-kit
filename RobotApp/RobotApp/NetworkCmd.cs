@@ -16,7 +16,7 @@ namespace RobotApp
         public static void NetworkInit(String host)
         {
             ClearPrevious();
-
+            // add a comment
             hostName = host;
             Debug.WriteLine("NetworkInit() host={0}, port={1}", hostName, hostPort);
             if (hostName.Length > 0) 
